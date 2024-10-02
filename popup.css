@@ -1,0 +1,38 @@
+.container{
+    
+    width: 400px;
+    
+    .insights{
+        padding: 10px;    
+        font-size: 24px;
+        background-color: green;
+        color:white;
+        width: 150px;
+        &:hover{
+            background-color: white;
+            color:green;
+            border: 2px solid green;
+        }
+    }
+    h1{
+        color:blue;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    #tab-info-name{
+        color:navy;
+        font-size: 16px;
+    }
+    #tab-info-url{
+        color:navy;
+        font-size: 16px;
+    }
+    .tab-p-heading{
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+.current-window-container{
+    padding:10px;
+}

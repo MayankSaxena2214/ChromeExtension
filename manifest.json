@@ -1,0 +1,16 @@
+{
+    "name":"Tab Name",
+    "description":"Display the name of current tab",
+    "manifest_version":3,
+    "version":"1.0",
+    "permissions":["tabs"],
+    "background":{
+        "service_worker":"background.js"
+    },
+    "icons":{
+        "128":"128.png"
+    },
+    "action":{
+        "default_popup":"popup.html"
+    }
+}
